@@ -1,0 +1,297 @@
+.nav-link {
+    color: white !important;
+}
+
+/* Video Background */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    background-color: #000;
+}
+
+/* Content Overlay Styling */
+.content {
+    position: absolute;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
+.content h1 {
+    font-size: 6vw;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.content h2 {
+    font-size: 2.5vw;
+    margin-top: 12vh;
+}
+
+/* Email Signup Styling */
+.email-signup {
+    display: flex;
+}
+
+.email-signup input[type="email"] {
+    padding: 0.75em;
+    font-size: 1em;
+    border: none;
+    width: 60vw;
+    max-width: 100%;
+}
+
+.email-signup button {
+    padding: 0.75em 1em;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #1203e7;
+    border: none;
+    width: 20vw;
+    max-width: 100%;
+}
+
+/* Second section Styling */
+.info-section {
+    margin-top: 100vh;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-image: url('./images/background-images-and-video/darjeeling_limited_dark.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 4vh 10vw;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.info-content {
+    max-width: 50%;
+}
+
+.info-content p {
+    font-size: 2.1vw;
+    line-height: 1.6;
+    font-weight: 700;
+}
+
+/* Third Section Styling */
+.cinema-section {
+    position: relative;
+    background: #ffffff;
+    padding: 4vh 10vw;
+    color: #000000;
+    z-index: 1;
+}
+
+.cinema-top {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    margin-bottom: 2vh;
+    margin-left: 6vw;
+}
+
+.cinema-image-left {
+    width: 20vw;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cinema-description {
+    font-size: 1.5vw;
+    line-height: 1.5;
+    font-weight: 700;
+    max-width: 60%;
+}
+
+.cinema-cards {
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+}
+
+.cinema-card {
+    position: relative;
+    width: 30vw;
+    height: 20vw;
+    overflow: hidden;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3vw;
+    color: rgba(255, 255, 255, 0.8);
+    pointer-events: none;
+}
+
+.movie-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+    padding: 0.5vw;
+    font-size: 1vw;
+    text-align: left;
+}
+
+/* Fourth section Section Styling */
+.learn-more-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4vh 10vw;
+    color: #000000;
+    background-color: #EAEAEA;
+}
+
+.learn-more-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.learn-more-image {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.learn-more-text {
+    max-width: 50%;
+    padding-left: 2vw;
+}
+
+.learn-more-text h2 {
+    font-size: 2.5vw;
+    font-weight: bolder;
+    margin-bottom: 1vh;
+}
+
+.learn-more-text h3 {
+    font-size: 1.75vw;
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
+
+.learn-more-text p {
+    font-size: 1.2vw;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-bottom: 1.5vh;
+}
+
+.learn-more-link {
+    font-size: 1.2vw;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Fifth Section Styling */
+.info-section2 {
+    position: relative;
+    overflow: hidden;
+    background-image: url('./images/background-images-and-video/grand_budapest_hotel_dark.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 60vh;
+    width: 100%;
+}
+
+.info-content2 {
+    max-width: 70%;
+    vertical-align: baseline;
+}
+
+.info-content2 p {
+    font-size: 1.7vw;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 1.3vh;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ffffff;
+    color: #323232;
+    padding: 2vh 10vw;
+    text-align: left;
+}
+
+.footer-content {
+    margin-top: 2vh;
+}
+
+.footer-content h1 {
+    font-size: 2vw;
+    font-weight: 500;
+    margin-bottom: 0.5vh;
+}
+
+.footer-content h2 {
+    font-size: 1.4vw;
+    margin-top: 2vh;
+}
+
+.footer-content .email-signup {
+    display: flex;
+    justify-content: left;
+    margin-top: 1vh;
+}
+
+.footer-content input[type="email"] {
+    padding: 0.5em;
+    font-size: 1vw;
+    border: 1px solid;
+    border-color: #EAEAEA;
+    width: 70%;
+    height: 10vh;
+}
+
+.footer-content button {
+    padding: 0.5em 1em;
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #0b00a8;
+    border: none;
+    height: 10vh;
+}
+
+.footer-content p {
+    font-size: 0.8vw;
+    margin-top: 0.5vh;
+}
+
+.footer-end {
+    margin-top: 5vh;
+    font-weight: 100;
+    font-size: 1vw;
+}
